@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class MongoApplication
 
 fun main(args: Array<String>) {
-	runApplication<MongoApplication>(*args)
+    runApplication<MongoApplication>(*args)
 }
