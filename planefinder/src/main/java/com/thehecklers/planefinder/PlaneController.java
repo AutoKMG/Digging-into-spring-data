@@ -17,6 +17,6 @@ public class PlaneController {
     @ResponseBody
     @GetMapping("/aircraft")
     public Iterable<Aircraft> getCurrentAircraft() throws IOException {
-        return pfService.getAircraft();
+        return pfService.saveSamplePositions();
     }
 }

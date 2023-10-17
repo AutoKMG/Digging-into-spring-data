@@ -60,7 +60,7 @@ public class PlaneFinderService {
         }
     }
 
-    private Iterable<Aircraft> saveSamplePositions() {
+    public Iterable<Aircraft> saveSamplePositions() {
         final Random rnd = new Random();
 
         repo.deleteAll();
