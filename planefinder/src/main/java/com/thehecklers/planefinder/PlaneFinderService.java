@@ -65,7 +65,7 @@ public class PlaneFinderService {
 
         repo.deleteAll();
 
-        for (int i = 0; i < rnd.nextInt(10); i++) {
+        for (int i = 1; i < rnd.nextInt(10); i++) {
             repo.save(generator.generate());
         }
 
